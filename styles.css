@@ -30,6 +30,46 @@ body {
   color: white;
   font-family: "lato";
 }
+html .header,
+body .header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html .header .links,
+body .header .links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+html .header .links .links-wrapper,
+body .header .links .links-wrapper {
+  padding-left: 25px;
+}
+html .header .links .links-wrapper a,
+body .header .links .links-wrapper a {
+  color: red;
+  text-decoration: none;
+}
+html .header .links .links-wrapper a:hover,
+body .header .links .links-wrapper a:hover {
+  color: blue;
+}
+html .header .logo-wrapper,
+body .header .logo-wrapper {
+  padding-right: 25px;
+}
+html .header .logo-wrapper i,
+body .header .logo-wrapper i {
+  color: red;
+}
+html .header .logo-wrapper i:hover,
+body .header .logo-wrapper i:hover {
+  color: blue;
+}
 html #inputWrapper,
 body #inputWrapper {
   padding-top: 50px;
