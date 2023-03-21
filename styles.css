@@ -18,7 +18,6 @@
     background-color: purple;
   }
 }
-
 html,
 body {
   background-color: red;
@@ -30,20 +29,21 @@ body {
   animation-iteration-count: infinite;
   color: white;
   font-family: "lato";
-
-  #inputWrapper {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75%;
-
-    input {
-      width: 500px;
-    }
-    #charsMessage {
-      padding-top: 10px;
-    }
-  }
 }
+html #inputWrapper,
+body #inputWrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+html #inputWrapper input,
+body #inputWrapper input {
+  width: 500px;
+}
+html #inputWrapper #charsMessage,
+body #inputWrapper #charsMessage {
+  padding-top: 10px;
+}/*# sourceMappingURL=styles.css.map */

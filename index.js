@@ -1,8 +1,11 @@
 const inputWrapper = document.getElementById("inputWrapper");
 const currentInput = document.getElementById("textInput");
+const textDiv = document.createElement("div");
 const charMessage = document.createTextNode("");
 
-inputWrapper.appendChild(charMessage);
+textDiv.id = "charsMessage";
+inputWrapper.appendChild(textDiv);
+textDiv.appendChild(charMessage);
 
 charMessage.id = "charMessage";
 
