@@ -1,21 +1,24 @@
 @keyframes bgfade {
-  16% {
+  15% {
     background-color: red;
   }
-  34% {
+  30% {
     background-color: orange;
   }
-  50% {
+  45% {
     background-color: yellow;
   }
-  68% {
+  70% {
     background-color: green;
   }
-  84% {
+  85% {
     background-color: blue;
   }
-  100% {
+  95% {
     background-color: purple;
+  }
+  100% {
+    background-color: red;
   }
 }
 html,
